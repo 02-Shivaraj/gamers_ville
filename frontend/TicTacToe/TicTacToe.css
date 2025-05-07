@@ -1,0 +1,177 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0%;
+    background-color: black;
+    background-image: url(bg.gif);
+}
+
+/* #details{
+    font-family:Arial, Helvetica, sans-serif ;
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    top: 5%;
+    left: 7.5%;
+    background-color: rgba(18, 17, 17, 0.808);
+    border-radius: 80px;
+    box-shadow: 5px 5px 100px rgba(231, 213, 232, 0.852);
+} */
+
+form{
+    font-size: 50px;
+    color: rgb(159, 3, 173);
+}
+input{
+    width: 250px;
+    height: 50px;
+    font-size:40px ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    margin-left: 2%;
+    background-color: rgba(249, 220, 247, 0.968);
+    /* position: absolute; */
+}
+
+#submitbutton{
+    color: purple;
+    font-size: 40PX;
+}
+#submitbutton:hover{
+    box-shadow: 5px 5px 100px rgb(251, 9, 255);
+}
+
+hr{
+    width: 600px;
+    height: 3px;
+}
+
+h1{
+    color: rgb(163, 0, 163);
+    font-size: 50px;
+}
+#board{
+    visibility: hidden;
+    background-color: rgb(237, 181, 237);
+    height: 450px;
+    width: 450px;
+    margin:0 auto ;
+    margin-top: 30px;
+    box-shadow: 5px 5px 100px rgb(251, 9, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 10px solid black;
+    z-index: 1;
+}
+
+#board:hover{
+    box-shadow: 10px 10px 700px rgb(251, 9, 255);
+    background-color: rgb(230, 153, 230);
+    color: rgb(115, 33, 191);
+}
+
+.tile{
+    height: 147px;
+    width: 147px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vertical-line{
+    border-bottom: 3px solid black;
+    /* width: 150 px;  */
+}
+.horizontal-line{
+    border-right: 3px solid black;
+    /* height: 150px;  */
+}
+.winner{
+    background-color: rgb(255, 0, 251);
+    color: red;
+}
+.playerO{
+    color : p;
+}
+.playerX{
+    color : purple;
+}
+
+.winner-banner{
+    visibility: hidden;
+    position: absolute;
+    height: 30%;
+    width: 50%;
+    top: 35%;
+    left: 25%;
+    font-size:80px;
+    text-align: center;
+    background-color: rgba(5, 4, 5, 0.804);
+    color: rgb(192, 20, 198);
+    border-radius: 50px;
+    padding-top: 40px;
+    border: 5px solid black;
+    box-shadow:  5px 5px 100px rgb(231, 213, 232);
+}
+
+#replay-exit{
+    visibility: hidden;
+    position: absolute;
+    height: 10%;
+    width: 45%;
+    /* background-color: white; */
+    color: rgba(0, 0, 0, 0);
+    top: 60%;
+    left: 27.5%;
+
+}
+#replay{
+    position: absolute;
+    height: 90%;
+    width: 49%;
+    background-color: black;
+    top:5%;
+    left: 0.5%;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow:  10px 10px 700px rgb(233, 122, 235);
+}
+#replay:hover{
+    box-shadow: 5px 5px 100px rgb(231, 213, 232);
+}
+
+#exit:hover{
+    box-shadow: 5px 5px 100px rgb(231, 213, 232);
+}
+#exit{
+    position: absolute;
+    height: 90%;
+    width: 49%;
+    background-color: black;
+    top: 5%;
+    left: 50.5%;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow:  10px 10px 700px rgb(233, 122, 235);
+}
+h1{
+    margin-top: 3px ;
+    margin-bottom: 0;
+}
+
+.banned{
+    position: absolute;
+    height: 40%;
+    width: 70%;
+    left: 15%;
+    top: 30%;
+    visibility: hidden;
+    background-color: black;
+    color: red;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 30px;
+    box-shadow: 5px 5px 100px red;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="login-div">
+        <p id="title">GAMERSVILLE</p>
+        <form onsubmit="login(event)">
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input class="inp" type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input class="inp" type="password" id="password" name="password" required>
+            </div>
+            <div><button id="sub" type="submit">Login</button></div>
+        </form>
+        <div id="sgn"> <button id="signup">signup</button> </div>
+    </div>
+    <script src="script.js"></script>
+    <div style="background-color: brown;"></div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body{
+    margin: 0%;
+}
+
+#intro{
+    position: absolute;
+    border-radius: 30px;
+    background-color: rgb(204, 234, 248);
+    height: 30%;
+    width: 80%;
+    left: 10%;
+    top: 10%;
+    /* padding: 10px; */
+}
+
+#profpic{
+    position: absolute;
+    left: 5%;
+    height: 80%;
+    border-radius: 100px;
+    top: 11%;
+
+}
+
+#profpic img{
+    border-radius: 100px;
+}
+
+#info{
+    position: absolute;
+    height: 90%;
+    top: 5%;
+    width: 60%;
+    left: 30%;
+    font-family: "Anton";
+    font-size: 30px;
+    color: rgb(22, 143, 224);
+    /* text-align: center; */
+}
+
+#personal-best{
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    left: 10%;
+    top: 50%;
+    background-color: whitesmoke;
+    color: rgb(22, 143, 224);
+    background-color: rgb(204, 234, 248);
+    border-radius: 30px;
+    font-size: 30px;
+    font-family: "Anton";
+    text-align: center;
+    padding: 10px;
+}
+
+#leaderboard{
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    left: 10%;
+    top: 90%;
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+
+#interstellar{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    top:120%;
+    /* background-color: black; */
+}

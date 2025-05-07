@@ -1,0 +1,115 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("background.gif");
+    background-size: cover ;
+    color:wheat
+}
+#abort{
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    text-align: center;
+    background-color: rgba(5, 7, 8, 0.922);
+    border-radius: 50px;
+    border: 2px rgb(235, 233, 123) solid;
+    
+}
+#abort:hover{
+    box-shadow: 5px 5px 100px rgb(248, 235, 96);
+}
+#abort h1{
+    margin-top: 1%;
+    margin-bottom: 0;
+    font-size: 180%;
+}
+
+#board{
+    height: 552px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border: 10px solid rgb(9, 7, 3);
+    box-shadow: 5px 5px 100px rgb(221, 135, 54);
+}
+.card{
+    height: 128px;
+    width: 90px;
+    margin: 5px;
+}
+.card:hover{
+    box-shadow: 5px 5px 100px rgb(201, 197, 193);
+}
+#winner-banner{
+    z-index: 1;
+    visibility: hidden;
+    position: absolute;
+    height: 19%;
+    width: 40%;
+    top: 30%;
+    left: 30%;
+    border-radius: 30px;
+    font-size:80px;
+    color: white;
+    background-color: rgba(17, 8, 8, 0.543);
+    padding-top: 40px;
+    text-align: center;
+    box-shadow: 50px 50px 1000px rgb(241, 164, 101);
+    /* border: 1px solid black; */
+}
+#win{
+    font-size: 400%;
+    margin-top: 17%;
+    margin-bottom: 0;
+}
+#replay-exit{
+    visibility: hidden;
+    position: absolute;
+    height: 10%;
+    width: 45%;
+    /* background-color: white; */
+    color: rgba(0, 0, 0, 0);
+    top: 65%;
+    left: 27.5%;
+
+}
+#replay{
+    position: absolute;
+    height: 90%;
+    width: 49%;
+    background-color: black;
+    top:5%;
+    left: 0.5%;
+    border-radius: 50px;
+    text-align: center;
+    color: aliceblue;
+    box-shadow:  10px 10px 700px rgb(233, 122, 235);
+
+}
+#replay:hover{
+    box-shadow: 5px 5px 100px rgb(231, 213, 232);
+}
+
+#exit:hover{
+    box-shadow: 5px 5px 100px rgb(231, 213, 232);
+}
+#exit{
+    position: absolute;
+    height: 90%;
+    width: 49%;
+    background-color: black;
+    top: 5%;
+    left: 50.5%;
+    color: aliceblue;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow:  10px 10px 700px rgb(233, 122, 235);
+}
+h1{
+    margin-top: 3.5% ;
+    margin-bottom: 0;
+}

@@ -1,0 +1,60 @@
+body{
+    margin: 0%;
+    /* background-image: url(inventory/bg.gif); */
+    background-size: cover, contain; 
+}
+
+#signup-div{
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    left: 30%;
+    top: 25%;
+    background-color: rgba(255, 255, 255, 0.601);
+    border-radius: 30px;
+    font-family: "Tiny5", sans-serif;
+    font-size: 50px;    
+    color: black;
+    text-align: center;
+}
+
+#title{
+    margin: 0%;
+    /* margin-top: 1%; */
+    font-family: "Tiny5", sans-serif;
+    /* font-weight: 400; */
+    font-size: 100px;
+    font-style: normal;
+}
+
+#sub{
+    background-color: rgba(255, 255, 255, 0.601);
+    border: 0px;
+    height: 36px;
+    border-radius: 10px;    
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 5%;
+    font-family: "Tiny5", sans-serif;
+    font-size: 22px;
+}
+
+.inp{
+    /* position: absolute; */
+    background-color: rgba(255, 255, 255, 0.601);
+    border: 0px;
+    height: 30px;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 40px;
+    /* padding: 5px;    */
+}
+
+.inp.inpnm{
+    margin-left: 20px;
+}
+
+.nm{
+    margin-right: 70px;
+}
+
